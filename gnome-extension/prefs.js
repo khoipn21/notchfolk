@@ -1244,6 +1244,7 @@ export default class NotchfolkPreferences extends ExtensionPreferences {
             ['large', 'Large'],
         ]));
         look.add(switchRow(settings, 'privacy-indicators', 'Privacy indicators', 'Dots when the camera, microphone or screen sharing is in use'));
+        look.add(switchRow(settings, 'hello-greeting', 'Hello greeting', 'The island says hello once per load, like unboxing an iPhone or a Mac'));
         look.add(choiceRow(settings, 'island-monitor', 'Display', 'With more than one display, where the island is', [
             ['primary', 'Main display'],
             ['active', 'Display in use'],
